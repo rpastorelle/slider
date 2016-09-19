@@ -625,4 +625,4 @@ if ( 'querySelector' in document && 'addEventListener' in window ) {
 	};
 }
 
-export default Swipe;
+module.exports = Swipe;

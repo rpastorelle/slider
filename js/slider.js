@@ -610,4 +610,19 @@ if ( 'querySelector' in document && 'addEventListener' in window ) {
 
 	};
 
+} else {
+	var Swipe = function (container, options) {
+		console.warn("Swipe no-op");
+		return {
+			setup: function() {},
+			slide: function(to, speed) {},
+			prev: function() {},
+			next: function() {},
+			getPos: function() {},
+			getNumSlides: function() {},
+			kill: function () {}
+		};
+	};
 }
+
+export default Swipe;

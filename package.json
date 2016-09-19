@@ -1,0 +1,24 @@
+{
+  "name": "react-js-slider",
+  "version": "1.0.0",
+  "description": "A simple, fluid, touch-enabled carousel.",
+  "main": "js/slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpastorelle/slider.git"
+  },
+  "keywords": [
+    "slider",
+    "carousel",
+    "react"
+  ],
+  "author": "Ryan Pastorelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpastorelle/slider/issues"
+  },
+  "homepage": "https://github.com/rpastorelle/slider#readme"
+}
